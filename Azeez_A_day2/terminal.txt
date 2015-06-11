@@ -1,0 +1,156 @@
+Last login: Tue Jun  9 10:03:22 on ttys000
+Elders-MacBook-Air-2:~ Elder$ whoami
+Elder
+Elders-MacBook-Air-2:~ Elder$ cls
+-bash: cls: command not found
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ pwd
+/Users/Elder
+Elders-MacBook-Air-2:~ Elder$ cd ~
+Elders-MacBook-Air-2:~ Elder$ cd $HOME
+Elders-MacBook-Air-2:~ Elder$ ls
+Applications	Documents	GitHub		Movies		Pictures	VAS.plist
+Desktop		Downloads	Library		Music		Public
+Elders-MacBook-Air-2:~ Elder$ ls -l
+total 8
+drwx------    3 Elder  staff   102 Jul 22  2014 Applications
+drwx------+  11 Elder  staff   374 May 12 16:34 Desktop
+drwx------+  23 Elder  staff   782 Jun  8 10:59 Documents
+drwx------+ 203 Elder  staff  6902 Jun  9 10:05 Downloads
+drwxr-xr-x    3 Elder  staff   102 May  5 00:44 GitHub
+drwx------@  48 Elder  staff  1632 Feb 21 01:11 Library
+drwx------+   3 Elder  staff   102 May 20  2014 Movies
+drwx------+   5 Elder  staff   170 Jan 17 19:49 Music
+drwx------+   4 Elder  staff   136 Aug  1  2014 Pictures
+drwxr-xr-x+   5 Elder  staff   170 May 20  2014 Public
+-rw-r--r--    1 Elder  staff   285 Apr 15 15:06 VAS.plist
+Elders-MacBook-Air-2:~ Elder$ ls -A
+.CFUserTextEncoding	.local			Desktop			Music
+.DS_Store		.mplayer		Documents		Pictures
+.Trash			.openvpn-connect.json	Downloads		Public
+.bash_history		.ssh			GitHub			VAS.plist
+.config			.tradable-forex.com	Library
+.gitconfig		Applications		Movies
+Elders-MacBook-Air-2:~ Elder$ ls -a
+.			.config			.tradable-forex.com	Library
+..			.gitconfig		Applications		Movies
+.CFUserTextEncoding	.local			Desktop			Music
+.DS_Store		.mplayer		Documents		Pictures
+.Trash			.openvpn-connect.json	Downloads		Public
+.bash_history		.ssh			GitHub			VAS.plist
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ cd nycda
+-bash: cd: nycda: No such file or directory
+Elders-MacBook-Air-2:~ Elder$ ls
+Applications	Documents	GitHub		Movies		Pictures	VAS.plist
+Desktop		Downloads	Library		Music		Public
+Elders-MacBook-Air-2:~ Elder$ cd Documents/
+Elders-MacBook-Air-2:Documents Elder$ ls
+1040x-instructions.pdf			VANGUARD-APP.pdf
+1040x.pdf				Vuze Downloads
+6-weeks-workout-plan.pdf		WWW
+BILLS					fela-hands.jpg
+EIN.pdf					fela-on-stage.jpg
+NYCDA					fela1.jpg
+PGRIDCard&VerificationofInsurance.pdf	returrnss.pdf
+PreWork					statement-for-apt.pdf
+She Loves My Cock-Jackyl.m4r		websites
+Elders-MacBook-Air-2:Documents Elder$ cd NYCDA
+Elders-MacBook-Air-2:NYCDA Elder$ ls
+Azeez_A_day1		azeez-stretch.html	news.html		style.css
+Azeez_A_day1.zip	azeez.css		portfolio.html		wired.jpg
+about.html		contact.html		sample-css.html
+azeez-header.html	img			sample.html
+Elders-MacBook-Air-2:NYCDA Elder$ cd ~
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ cls
+-bash: cls: command not found
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ cd ~
+Elders-MacBook-Air-2:~ Elder$ ls
+Applications	Documents	GitHub		Movies		Pictures	VAS.plist
+Desktop		Downloads	Library		Music		Public
+Elders-MacBook-Air-2:~ Elder$ cd Desktop
+Elders-MacBook-Air-2:Desktop Elder$ my-project
+-bash: my-project: command not found
+Elders-MacBook-Air-2:Desktop Elder$ mkdir my-project
+Elders-MacBook-Air-2:Desktop Elder$ cd my-project
+Elders-MacBook-Air-2:my-project Elder$ mkdir styles
+Elders-MacBook-Air-2:my-project Elder$ ls
+styles
+Elders-MacBook-Air-2:my-project Elder$ cd~
+-bash: cd~: command not found
+Elders-MacBook-Air-2:my-project Elder$ cd ~
+Elders-MacBook-Air-2:~ Elder$ cd Desktop
+Elders-MacBook-Air-2:Desktop Elder$ ls
+Verizon Download Manager.app	my-project			terminal-commands.pages
+Vuze				project-one			tradable-forex.com
+my file.html			project-x
+Elders-MacBook-Air-2:Desktop Elder$ cd my-project
+Elders-MacBook-Air-2:my-project Elder$ ls
+styles
+Elders-MacBook-Air-2:my-project Elder$ touch index.html
+Elders-MacBook-Air-2:my-project Elder$ ls
+index.html	styles
+Elders-MacBook-Air-2:my-project Elder$ cd styles
+Elders-MacBook-Air-2:styles Elder$ touch style.css
+Elders-MacBook-Air-2:styles Elder$ ls
+style.css
+Elders-MacBook-Air-2:styles Elder$ cd ./
+Elders-MacBook-Air-2:styles Elder$ cd ../
+Elders-MacBook-Air-2:my-project Elder$ ls
+index.html	styles
+Elders-MacBook-Air-2:my-project Elder$ clear
+Elders-MacBook-Air-2:my-project Elder$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Elders-MacBook-Air-2:my-project Elder$ cls
+-bash: cls: command not found
+Elders-MacBook-Air-2:my-project Elder$ clear
+Elders-MacBook-Air-2:my-project Elder$ cd ~
+Elders-MacBook-Air-2:~ Elder$ clear
+Elders-MacBook-Air-2:~ Elder$ cd Desktop
+Elders-MacBook-Air-2:Desktop Elder$ mkdir project-one
+Elders-MacBook-Air-2:Desktop Elder$ cd project-one
+Elders-MacBook-Air-2:project-one Elder$ touch index.html
+Elders-MacBook-Air-2:project-one Elder$ pwd
+/Users/Elder/Desktop/project-one
+Elders-MacBook-Air-2:project-one Elder$ rm index.html
+Elders-MacBook-Air-2:project-one Elder$ touch index.html
+Elders-MacBook-Air-2:project-one Elder$ ls
+index.html
+Elders-MacBook-Air-2:project-one Elder$ touch .hidden_file
+Elders-MacBook-Air-2:project-one Elder$ ls -A
+.DS_Store	.hidden_file	index.html
+Elders-MacBook-Air-2:project-one Elder$ cp .hidden_file .hidden_file1
+Elders-MacBook-Air-2:project-one Elder$ cd Desktop
+-bash: cd: Desktop: No such file or directory
+Elders-MacBook-Air-2:project-one Elder$ cd \..
+Elders-MacBook-Air-2:Desktop Elder$ mkdir NewFolder
+Elders-MacBook-Air-2:Desktop Elder$ cp NewFolder NewFolder1
+cp: NewFolder is a directory (not copied).
+Elders-MacBook-Air-2:Desktop Elder$ cp -Rp NewFolder NewFolder1
+Elders-MacBook-Air-2:Desktop Elder$ rm NewFolder1
+rm: NewFolder1: is a directory
+Elders-MacBook-Air-2:Desktop Elder$ rm -R NewFolder1
+Elders-MacBook-Air-2:Desktop Elder$ mv -R NewFolder NewFolder1
+mv: illegal option -- R
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Elders-MacBook-Air-2:Desktop Elder$ mv NewFolder /Newfolder1
+mv: rename NewFolder to /Newfolder1: Permission denied
+Elders-MacBook-Air-2:Desktop Elder$ mv NewFolder Newfolder1
+Elders-MacBook-Air-2:Desktop Elder$ cd NewFolder1
+Elders-MacBook-Air-2:NewFolder1 Elder$ touch giant.txt
+Elders-MacBook-Air-2:NewFolder1 Elder$ touch midget.txt
+Elders-MacBook-Air-2:NewFolder1 Elder$ rm giant.txt
+Elders-MacBook-Air-2:NewFolder1 Elder$ mv midget.txt giant.txt
+Elders-MacBook-Air-2:NewFolder1 Elder$ touch .hidden_one
+Elders-MacBook-Air-2:NewFolder1 Elder$ pwd
+/Users/Elder/Desktop/NewFolder1
+Elders-MacBook-Air-2:NewFolder1 Elder$ ls -A
+.DS_Store	.hidden_one	giant.txt
+Elders-MacBook-Air-2:NewFolder1 Elder$ mv .hidden_one .hidden
+Elders-MacBook-Air-2:NewFolder1 Elder$ touch 'new file'
+Elders-MacBook-Air-2:NewFolder1 Elder$ mv 'new file' ~/Desktop/
+Elders-MacBook-Air-2:NewFolder1 Elder$

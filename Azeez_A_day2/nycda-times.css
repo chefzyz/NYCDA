@@ -1,0 +1,126 @@
+@font-face {
+    font-family: serif;
+    src: url(NEWYORKR.TTF);
+}
+
+h1,h2{
+	text-align: center;
+	font-family: serif;
+}
+
+body{
+	margin:0 auto;
+	width:900px;
+	font-size: 15px;
+
+}
+article{
+	float: left;
+	width: 1000px;
+	border-style: inset;
+	border-radius: 8px;
+	text-align: justify;
+}
+.column1,.column2{
+	width:350px;
+	margin: 10px;
+	text-align: center;
+}
+.column1{
+	float: left;
+	border-style: inset;
+}
+.column2{
+	float: left;
+	border-style: outset;
+}
+img{
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+/*.link{
+	position: fixed;
+	float: left;
+	margin-left: -150px;
+
+} */
+#primary_nav_wrap
+{
+	margin-top:15px;
+	float: left;
+	position: fixed;
+	margin-left: -200px;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li a:hover
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
