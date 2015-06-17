@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Page</title>
+		<link rel="stylesheet" type="text/css" href=".css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+		var correctPassword = "Letmein123";
+		$("#myform").submit(function(){
+			if(("#password").val() !== correctPassword){
+		    alert("Password is incorrect");
+			}
+			else{
+			$("h1").text("You're now logged in !");
+			}
+		}
+	}
+</script>
+		<meta charset="UTF-8">
+		<style>
+		h1, form{
+			text-align: center;
+		}
+		</style>
+	</head>
+	<body>
+	<h1> Welcome to the Login Form</h1>
+		<form id ="myform" action="http://www.google.com" method="POST">   <label for="username">Username</label>   
+		<input type="text" name="username" id="username"> <label for="password">Password</label>   
+		<input type="password" name="password" id="password">  <input type="submit" value="Let Me In">
+		</form>
+	</body>
+</html>
